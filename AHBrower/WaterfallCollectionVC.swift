@@ -19,7 +19,7 @@ class WaterfallCollectionVC: UIViewController,WaterfallLayoutDelegate,UICollecti
     
     
     /* 切换本地和网络请求的图片   */
-    let isLocalImg = false
+    let isLocalImg = true
     
     
     
@@ -33,7 +33,12 @@ class WaterfallCollectionVC: UIViewController,WaterfallLayoutDelegate,UICollecti
         
         if isLocalImg {
             // 图片的位置 目前是在 document
-            let localPath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first?.appending("/img")
+            var localPath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first
+            let paths = FileManager.default.subpaths(atPath: localPath!)!
+            guard paths.count > 1 else {
+                return
+            }
+            localPath?.append("/img")
             let newImages =  FileManager.default.subpaths(atPath: localPath!)!
             for index in 0 ..< newImages.count {
                 if index == 0 {
