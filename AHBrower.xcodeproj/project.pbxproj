@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F90A9171701F2CA6DFC8DB2 /* Pods_AHBrower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD89CE41C5E1AD9A24CECE5 /* Pods_AHBrower.framework */; };
+		5A52191D1F6B74A500BB0554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52191C1F6B74A500BB0554 /* AppDelegate.swift */; };
+		5A52191F1F6B74A500BB0554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52191E1F6B74A500BB0554 /* ViewController.swift */; };
+		5A5219221F6B74A500BB0554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5219201F6B74A500BB0554 /* Main.storyboard */; };
+		5A5219241F6B74A500BB0554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5219231F6B74A500BB0554 /* Assets.xcassets */; };
+		5A5219271F6B74A500BB0554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5219251F6B74A500BB0554 /* LaunchScreen.storyboard */; };
+		5A5219321F6B74A500BB0554 /* AHBrowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5219311F6B74A500BB0554 /* AHBrowerTests.swift */; };
+		5A52193D1F6B74A500BB0554 /* AHBrowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52193C1F6B74A500BB0554 /* AHBrowerUITests.swift */; };
+		5A52194C1F6B9B9800BB0554 /* View+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52194B1F6B9B9800BB0554 /* View+Hex.swift */; };
+		5A52194E1F6B9BB600BB0554 /* AHZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52194D1F6B9BB600BB0554 /* AHZoomView.swift */; };
+		5A5219501F6B9C1B00BB0554 /* AHImagesBrower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52194F1F6B9C1B00BB0554 /* AHImagesBrower.swift */; };
+		5A5219571F6B9D1300BB0554 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A5219511F6B9D1300BB0554 /* 1.plist */; };
+		5A5219581F6B9D1300BB0554 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5219521F6B9D1300BB0554 /* WaterfallLayout.swift */; };
+		5A5219591F6B9D1300BB0554 /* WaterfallCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5219531F6B9D1300BB0554 /* WaterfallCollectionVC.swift */; };
+		5A52195A1F6B9D1300BB0554 /* WaterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5219541F6B9D1300BB0554 /* WaterImage.swift */; };
+		5A52195B1F6B9D1300BB0554 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5219551F6B9D1300BB0554 /* WaterfallCell.swift */; };
+		5A52195C1F6B9D1300BB0554 /* WaterfallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A5219561F6B9D1300BB0554 /* WaterfallCell.xib */; };
+		A26CB7D9E70A66771AEF7711 /* Pods_AHBrowerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D50EACBFC8539CE69AB003 /* Pods_AHBrowerUITests.framework */; };
+		DAE2701256573C64797C9493 /* Pods_AHBrowerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14112D80BAA6D93E55C191 /* Pods_AHBrowerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A52192E1F6B74A500BB0554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5219111F6B74A500BB0554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5219181F6B74A500BB0554;
+			remoteInfo = AHBrower;
+		};
+		5A5219391F6B74A500BB0554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5219111F6B74A500BB0554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5219181F6B74A500BB0554;
+			remoteInfo = AHBrower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6698B5D689F21A0E1BED6B /* Pods-AHBrower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHBrower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHBrower/Pods-AHBrower.debug.xcconfig"; sourceTree = "<group>"; };
+		40AAC18C277AEE38E341AFC5 /* Pods-AHBrower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHBrower.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHBrower/Pods-AHBrower.release.xcconfig"; sourceTree = "<group>"; };
+		4891281C5F6E3983A68B79BA /* Pods-AHBrowerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHBrowerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHBrowerUITests/Pods-AHBrowerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4AC265CF05B1399EF72084B6 /* Pods-AHBrowerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHBrowerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHBrowerTests/Pods-AHBrowerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5219191F6B74A500BB0554 /* AHBrower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHBrower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A52191C1F6B74A500BB0554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A52191E1F6B74A500BB0554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A5219211F6B74A500BB0554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A5219231F6B74A500BB0554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A5219261F6B74A500BB0554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A5219281F6B74A500BB0554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A52192D1F6B74A500BB0554 /* AHBrowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHBrowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5219311F6B74A500BB0554 /* AHBrowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHBrowerTests.swift; sourceTree = "<group>"; };
+		5A5219331F6B74A500BB0554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5219381F6B74A500BB0554 /* AHBrowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHBrowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A52193C1F6B74A500BB0554 /* AHBrowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHBrowerUITests.swift; sourceTree = "<group>"; };
+		5A52193E1F6B74A500BB0554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A52194B1F6B9B9800BB0554 /* View+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Hex.swift"; sourceTree = "<group>"; };
+		5A52194D1F6B9BB600BB0554 /* AHZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AHZoomView.swift; sourceTree = "<group>"; };
+		5A52194F1F6B9C1B00BB0554 /* AHImagesBrower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AHImagesBrower.swift; sourceTree = "<group>"; };
+		5A5219511F6B9D1300BB0554 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		5A5219521F6B9D1300BB0554 /* WaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		5A5219531F6B9D1300BB0554 /* WaterfallCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallCollectionVC.swift; sourceTree = "<group>"; };
+		5A5219541F6B9D1300BB0554 /* WaterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterImage.swift; sourceTree = "<group>"; };
+		5A5219551F6B9D1300BB0554 /* WaterfallCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
+		5A5219561F6B9D1300BB0554 /* WaterfallCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaterfallCell.xib; sourceTree = "<group>"; };
+		6A14112D80BAA6D93E55C191 /* Pods_AHBrowerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHBrowerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD89CE41C5E1AD9A24CECE5 /* Pods_AHBrower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHBrower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FD01B69DF499B5205D9B56 /* Pods-AHBrowerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHBrowerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHBrowerUITests/Pods-AHBrowerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA814B256C319EAE3473381F /* Pods-AHBrowerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHBrowerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHBrowerTests/Pods-AHBrowerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9D50EACBFC8539CE69AB003 /* Pods_AHBrowerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHBrowerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A5219161F6B74A500BB0554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F90A9171701F2CA6DFC8DB2 /* Pods_AHBrower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A52192A1F6B74A500BB0554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE2701256573C64797C9493 /* Pods_AHBrowerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5219351F6B74A500BB0554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26CB7D9E70A66771AEF7711 /* Pods_AHBrowerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5219101F6B74A500BB0554 = {
+			isa = PBXGroup;
+			children = (
+				5A52191B1F6B74A500BB0554 /* AHBrower */,
+				5A5219301F6B74A500BB0554 /* AHBrowerTests */,
+				5A52193B1F6B74A500BB0554 /* AHBrowerUITests */,
+				5A52191A1F6B74A500BB0554 /* Products */,
+				BDF0E11D220DF3466FB075D9 /* Pods */,
+				68DA4B6800FB036361BE63EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A52191A1F6B74A500BB0554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A5219191F6B74A500BB0554 /* AHBrower.app */,
+				5A52192D1F6B74A500BB0554 /* AHBrowerTests.xctest */,
+				5A5219381F6B74A500BB0554 /* AHBrowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A52191B1F6B74A500BB0554 /* AHBrower */ = {
+			isa = PBXGroup;
+			children = (
+				5A52194A1F6B9B8900BB0554 /* AHImageBrower */,
+				5A52191C1F6B74A500BB0554 /* AppDelegate.swift */,
+				5A52191E1F6B74A500BB0554 /* ViewController.swift */,
+				5A5219521F6B9D1300BB0554 /* WaterfallLayout.swift */,
+				5A5219531F6B9D1300BB0554 /* WaterfallCollectionVC.swift */,
+				5A5219541F6B9D1300BB0554 /* WaterImage.swift */,
+				5A5219551F6B9D1300BB0554 /* WaterfallCell.swift */,
+				5A5219561F6B9D1300BB0554 /* WaterfallCell.xib */,
+				5A5219201F6B74A500BB0554 /* Main.storyboard */,
+				5A5219231F6B74A500BB0554 /* Assets.xcassets */,
+				5A5219251F6B74A500BB0554 /* LaunchScreen.storyboard */,
+				5A5219511F6B9D1300BB0554 /* 1.plist */,
+				5A5219281F6B74A500BB0554 /* Info.plist */,
+			);
+			path = AHBrower;
+			sourceTree = "<group>";
+		};
+		5A5219301F6B74A500BB0554 /* AHBrowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A5219311F6B74A500BB0554 /* AHBrowerTests.swift */,
+				5A5219331F6B74A500BB0554 /* Info.plist */,
+			);
+			path = AHBrowerTests;
+			sourceTree = "<group>";
+		};
+		5A52193B1F6B74A500BB0554 /* AHBrowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A52193C1F6B74A500BB0554 /* AHBrowerUITests.swift */,
+				5A52193E1F6B74A500BB0554 /* Info.plist */,
+			);
+			path = AHBrowerUITests;
+			sourceTree = "<group>";
+		};
+		5A52194A1F6B9B8900BB0554 /* AHImageBrower */ = {
+			isa = PBXGroup;
+			children = (
+				5A52194B1F6B9B9800BB0554 /* View+Hex.swift */,
+				5A52194D1F6B9BB600BB0554 /* AHZoomView.swift */,
+				5A52194F1F6B9C1B00BB0554 /* AHImagesBrower.swift */,
+			);
+			path = AHImageBrower;
+			sourceTree = "<group>";
+		};
+		68DA4B6800FB036361BE63EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFD89CE41C5E1AD9A24CECE5 /* Pods_AHBrower.framework */,
+				6A14112D80BAA6D93E55C191 /* Pods_AHBrowerTests.framework */,
+				F9D50EACBFC8539CE69AB003 /* Pods_AHBrowerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF0E11D220DF3466FB075D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B6698B5D689F21A0E1BED6B /* Pods-AHBrower.debug.xcconfig */,
+				40AAC18C277AEE38E341AFC5 /* Pods-AHBrower.release.xcconfig */,
+				4AC265CF05B1399EF72084B6 /* Pods-AHBrowerTests.debug.xcconfig */,
+				CA814B256C319EAE3473381F /* Pods-AHBrowerTests.release.xcconfig */,
+				B8FD01B69DF499B5205D9B56 /* Pods-AHBrowerUITests.debug.xcconfig */,
+				4891281C5F6E3983A68B79BA /* Pods-AHBrowerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A5219181F6B74A500BB0554 /* AHBrower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5219411F6B74A500BB0554 /* Build configuration list for PBXNativeTarget "AHBrower" */;
+			buildPhases = (
+				2724631A6DEAC9DD86D49709 /* [CP] Check Pods Manifest.lock */,
+				5A5219151F6B74A500BB0554 /* Sources */,
+				5A5219161F6B74A500BB0554 /* Frameworks */,
+				5A5219171F6B74A500BB0554 /* Resources */,
+				3A14E88E8A80E2FA84FB5E72 /* [CP] Embed Pods Frameworks */,
+				458C8D4537FE2478905B6A06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHBrower;
+			productName = AHBrower;
+			productReference = 5A5219191F6B74A500BB0554 /* AHBrower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A52192C1F6B74A500BB0554 /* AHBrowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5219441F6B74A500BB0554 /* Build configuration list for PBXNativeTarget "AHBrowerTests" */;
+			buildPhases = (
+				C4FE05EFBCEB50F5EE86F929 /* [CP] Check Pods Manifest.lock */,
+				5A5219291F6B74A500BB0554 /* Sources */,
+				5A52192A1F6B74A500BB0554 /* Frameworks */,
+				5A52192B1F6B74A500BB0554 /* Resources */,
+				1788FD387AC0CD384ECEB73B /* [CP] Embed Pods Frameworks */,
+				FB25F8239AE58D4021C0187B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A52192F1F6B74A500BB0554 /* PBXTargetDependency */,
+			);
+			name = AHBrowerTests;
+			productName = AHBrowerTests;
+			productReference = 5A52192D1F6B74A500BB0554 /* AHBrowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A5219371F6B74A500BB0554 /* AHBrowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5219471F6B74A500BB0554 /* Build configuration list for PBXNativeTarget "AHBrowerUITests" */;
+			buildPhases = (
+				84E545C6D9FA5F25C0A22F38 /* [CP] Check Pods Manifest.lock */,
+				5A5219341F6B74A500BB0554 /* Sources */,
+				5A5219351F6B74A500BB0554 /* Frameworks */,
+				5A5219361F6B74A500BB0554 /* Resources */,
+				7A65CC32E1F65FCD7976FD5F /* [CP] Embed Pods Frameworks */,
+				788A4D5CC3DF06D0C8EA387C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A52193A1F6B74A500BB0554 /* PBXTargetDependency */,
+			);
+			name = AHBrowerUITests;
+			productName = AHBrowerUITests;
+			productReference = 5A5219381F6B74A500BB0554 /* AHBrowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A5219111F6B74A500BB0554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jacky.he;
+				TargetAttributes = {
+					5A5219181F6B74A500BB0554 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5A52192C1F6B74A500BB0554 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A5219181F6B74A500BB0554;
+					};
+					5A5219371F6B74A500BB0554 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A5219181F6B74A500BB0554;
+					};
+				};
+			};
+			buildConfigurationList = 5A5219141F6B74A500BB0554 /* Build configuration list for PBXProject "AHBrower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A5219101F6B74A500BB0554;
+			productRefGroup = 5A52191A1F6B74A500BB0554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A5219181F6B74A500BB0554 /* AHBrower */,
+				5A52192C1F6B74A500BB0554 /* AHBrowerTests */,
+				5A5219371F6B74A500BB0554 /* AHBrowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A5219171F6B74A500BB0554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5219271F6B74A500BB0554 /* LaunchScreen.storyboard in Resources */,
+				5A5219241F6B74A500BB0554 /* Assets.xcassets in Resources */,
+				5A52195C1F6B9D1300BB0554 /* WaterfallCell.xib in Resources */,
+				5A5219571F6B9D1300BB0554 /* 1.plist in Resources */,
+				5A5219221F6B74A500BB0554 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A52192B1F6B74A500BB0554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5219361F6B74A500BB0554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1788FD387AC0CD384ECEB73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHBrowerTests/Pods-AHBrowerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2724631A6DEAC9DD86D49709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A14E88E8A80E2FA84FB5E72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHBrower/Pods-AHBrower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		458C8D4537FE2478905B6A06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHBrower/Pods-AHBrower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788A4D5CC3DF06D0C8EA387C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHBrowerUITests/Pods-AHBrowerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A65CC32E1F65FCD7976FD5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHBrowerUITests/Pods-AHBrowerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84E545C6D9FA5F25C0A22F38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FE05EFBCEB50F5EE86F929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB25F8239AE58D4021C0187B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHBrowerTests/Pods-AHBrowerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A5219151F6B74A500BB0554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5219501F6B9C1B00BB0554 /* AHImagesBrower.swift in Sources */,
+				5A52195A1F6B9D1300BB0554 /* WaterImage.swift in Sources */,
+				5A52194E1F6B9BB600BB0554 /* AHZoomView.swift in Sources */,
+				5A52195B1F6B9D1300BB0554 /* WaterfallCell.swift in Sources */,
+				5A5219591F6B9D1300BB0554 /* WaterfallCollectionVC.swift in Sources */,
+				5A52191F1F6B74A500BB0554 /* ViewController.swift in Sources */,
+				5A52191D1F6B74A500BB0554 /* AppDelegate.swift in Sources */,
+				5A5219581F6B9D1300BB0554 /* WaterfallLayout.swift in Sources */,
+				5A52194C1F6B9B9800BB0554 /* View+Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5219291F6B74A500BB0554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5219321F6B74A500BB0554 /* AHBrowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5219341F6B74A500BB0554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A52193D1F6B74A500BB0554 /* AHBrowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A52192F1F6B74A500BB0554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5219181F6B74A500BB0554 /* AHBrower */;
+			targetProxy = 5A52192E1F6B74A500BB0554 /* PBXContainerItemProxy */;
+		};
+		5A52193A1F6B74A500BB0554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5219181F6B74A500BB0554 /* AHBrower */;
+			targetProxy = 5A5219391F6B74A500BB0554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A5219201F6B74A500BB0554 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5219211F6B74A500BB0554 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A5219251F6B74A500BB0554 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5219261F6B74A500BB0554 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A52193F1F6B74A500BB0554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A5219401F6B74A500BB0554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A5219421F6B74A500BB0554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6698B5D689F21A0E1BED6B /* Pods-AHBrower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AHBrower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnew.AHBrower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5A5219431F6B74A500BB0554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AAC18C277AEE38E341AFC5 /* Pods-AHBrower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AHBrower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnew.AHBrower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5A5219451F6B74A500BB0554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC265CF05B1399EF72084B6 /* Pods-AHBrowerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AHBrowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnew.AHBrowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHBrower.app/AHBrower";
+			};
+			name = Debug;
+		};
+		5A5219461F6B74A500BB0554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA814B256C319EAE3473381F /* Pods-AHBrowerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AHBrowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnew.AHBrowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHBrower.app/AHBrower";
+			};
+			name = Release;
+		};
+		5A5219481F6B74A500BB0554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FD01B69DF499B5205D9B56 /* Pods-AHBrowerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AHBrowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnew.AHBrowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AHBrower;
+			};
+			name = Debug;
+		};
+		5A5219491F6B74A500BB0554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4891281C5F6E3983A68B79BA /* Pods-AHBrowerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AHBrowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingnew.AHBrowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AHBrower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A5219141F6B74A500BB0554 /* Build configuration list for PBXProject "AHBrower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A52193F1F6B74A500BB0554 /* Debug */,
+				5A5219401F6B74A500BB0554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5219411F6B74A500BB0554 /* Build configuration list for PBXNativeTarget "AHBrower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5219421F6B74A500BB0554 /* Debug */,
+				5A5219431F6B74A500BB0554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5219441F6B74A500BB0554 /* Build configuration list for PBXNativeTarget "AHBrowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5219451F6B74A500BB0554 /* Debug */,
+				5A5219461F6B74A500BB0554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5219471F6B74A500BB0554 /* Build configuration list for PBXNativeTarget "AHBrowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5219481F6B74A500BB0554 /* Debug */,
+				5A5219491F6B74A500BB0554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A5219111F6B74A500BB0554 /* Project object */;
+}
